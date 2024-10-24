@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Changed to Roboto */
+    background: url('image.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #1c2833; /* Navy blue for body text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+header {
+    color: #ffffff; /* Soft white for header text */
+    padding: 0.5em 0;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #333; /* Dark background */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo-text {
+    margin-left: 10px;
+    font-size: 1.5em; /* Increased font size */
+    color: #ff0000; /* Soft white for logo text */
+    font-weight: bold;
+}
+
+.navbar a {
+    color: #ff0000; /* Soft white for link text */
+}
+
+h1 {
+    color: Turquoise; /* Bright orange for heading */
+}
+
+p {
+    color: #ffffff; /* Soft white for paragraph text */
+}
+
+.container {
+    width: 70%; /* Adjusted width */
+    max-width: 900px; /* Adjusted max-width */
+    padding: 2em;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 120px;
+    margin-left: auto; /* Centering the container */
+    margin-right: auto; /* Centering the container */
+    transform: translateX(0); /* Remove horizontal transform */
+}
+
+
+h1 {
+    border-bottom: 2px solid #ff0a0a; /* Existing style */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); /* Add text shadow for depth */
+}
+
+h2 {
+    color: #000000; /* Change h2 color for emphasis */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text shadow for depth */
+}
+
+.container h2 {
+    color: #ff0a0a; /* Change h2 color for emphasis */
+}
+
+.container p {
+    color: #ffffff; /* Change paragraph text color */
+    background-color: rgba(0, 0, 0, 0.7); /* Slightly darker background for contrast */
+    border: 2px solid #00ffea; /* Light border for visibility */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 2em;
+    color: #fff;
+    border-radius: 12px; /* Slightly rounded corners */
+    margin-top: 120px;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* Gradient background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+    border: 2px solid #00ffea; /* Light border for emphasis */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+    position: relative; /* For the pseudo-element */
+    overflow: hidden; /* To contain the pseudo-element */
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('decorative-pattern.png') repeat; /* Add a decorative pattern */
+    opacity: 0.1; /* Slightly transparent */
+    z-index: 0; /* Behind the content */
+}
+
+.container h1, .container h2, .container p, .container ul {
+    position: relative; /* Positioning context for the text */
+    z-index: 1; /* Bring text in front of the background */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 2em;
+    color: #fff;
+    border-radius: 12px; /* Slightly rounded corners */
+    margin-top: 120px;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)); /* Gradient background */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Deeper shadow */
+    border: 2px solid #00ffea; /* Light border for emphasis */
+    margin-left: auto; /* Center the container */
+    margin-right: auto; /* Center the container */
+    position: relative; /* For the pseudo-element */
+    overflow: hidden; /* To contain the pseudo-element */
+}
+
+.container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('decorative-pattern.png') repeat; /* Add a decorative pattern */
+    opacity: 0.1; /* Slightly transparent */
+    z-index: 0; /* Behind the content */
+}
+
+.container h2, .container p, .container ul {
+    position: relative; /* Positioning context for the text */
+    z-index: 1; /* Bring text in front of the background */
+}
